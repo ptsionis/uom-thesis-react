@@ -1,0 +1,17 @@
+.open-challenge-modal-wrapper {
+  z-index: 800;
+}
+
+.open-challenge-modal {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 25px;
+  border-radius: 10px;
+  background-color: var(--bg-primary);
+}

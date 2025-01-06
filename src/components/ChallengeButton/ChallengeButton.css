@@ -1,0 +1,29 @@
+.challenge-button-enabled {
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.challenge-button-disabled {
+  cursor: not-allowed;
+  color: var(--text-primary);
+}
+
+.challenge-button-ONLINE {
+  background-color: var(--btn-primary-d);
+}
+
+.challenge-button-OFFLINE {
+  background-color: var(--text-disabled-d);
+}
+
+.challenge-button-PENDING {
+  background-color: var(--text-disabled-d);
+}
+
+.challenge-button-PLAYING {
+  background-color: var(--btn-secondary-d);
+}
+
+.challenge-button-ONLINE:hover {
+  background-color: var(--btn-primary);
+}

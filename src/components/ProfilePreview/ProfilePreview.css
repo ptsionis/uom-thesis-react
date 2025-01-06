@@ -1,0 +1,60 @@
+.profile-preview-wrapper {
+  z-index: 700;
+}
+
+.profile-preview {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px;
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+}
+
+.profile-preview-outer {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.profile-preview-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-preview-avatar-img {
+  border-radius: 100%;
+  width: 70px;
+  margin: 10px 0px;
+}
+
+.profile-preview-name {
+  font-size: large;
+  font-weight: normal;
+  margin-bottom: 7.5px;
+}
+
+.profile-preview-joined {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.profile-preview-rank {
+  margin-top: 20px;
+}
+
+.profile-preview-outer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.profile-preview-outer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

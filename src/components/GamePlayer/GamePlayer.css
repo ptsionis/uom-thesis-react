@@ -1,0 +1,26 @@
+.game-player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-player-opponent {
+  flex-direction: row-reverse;
+}
+
+.game-player-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.game-player-name {
+  padding: 0px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .game-player-name {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+.vs-friend-play {
+  background-color: var(--bg-primary-d);
+  color: var(--text-primary);
+}
+
+.vs-friend-play:hover {
+  background-color: var(--bg-alt);
+}

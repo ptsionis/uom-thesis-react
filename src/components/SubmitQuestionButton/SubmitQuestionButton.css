@@ -1,0 +1,8 @@
+.submit-question-button {
+  background-color: var(--bg-primary-d);
+  color: var(--text-primary);
+}
+
+.submit-question-button:hover {
+  background-color: var(--bg-alt);
+}

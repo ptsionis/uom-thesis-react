@@ -1,0 +1,8 @@
+.quick-play {
+  background-color: var(--bg-primary-d);
+  color: var(--text-primary);
+}
+
+.quick-play:hover {
+  background-color: var(--bg-alt);
+}

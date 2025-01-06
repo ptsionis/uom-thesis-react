@@ -1,0 +1,20 @@
+.game-categories-wrapper {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+  row-gap: 20px;
+  padding: 30px 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .game-categories-wrapper {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-categories-wrapper {
+    grid-template-columns: auto;
+  }
+}

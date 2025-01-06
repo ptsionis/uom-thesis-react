@@ -1,0 +1,120 @@
+.admin-pending-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+  padding: 30px;
+  background-color: var(--bg-primary-d);
+  border-radius: 10px;
+}
+
+.pending-item-id {
+  text-align: center;
+  margin: 25px 0px;
+  padding: 5px 0px;
+  background-color: var(--btn-secondary);
+  border-radius: 10px;
+}
+
+.pending-item-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.pending-item-required {
+  color: var(--btn-secondary);
+}
+
+.pending-item-control {
+  margin: 5px 0px 5px 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--text-primary-d);
+}
+
+.pending-item-note {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.pending-item-radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pending-item-radio-option {
+  margin-right: 20px;
+}
+
+.pending-item-radio-label {
+  padding-left: 4px;
+}
+
+.pending-item-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.pending-item-button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+  padding: 15px 35px 15px 35px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.pending-item-button-accept {
+  background-color: var(--btn-primary);
+}
+
+.pending-item-button-accept:hover {
+  background-color: var(--btn-primary-d);
+}
+
+.pending-item-button-modify {
+  background-color: var(--btn-third);
+}
+
+.pending-item-button-modify:hover {
+  background-color: var(--btn-third-d);
+}
+
+.pending-item-button-delete {
+  background-color: var(--btn-secondary);
+}
+
+.pending-item-button-delete:hover {
+  background-color: var(--btn-secondary-d);
+}
+
+@media screen and (max-width: 1200px) {
+  .pending-item-radio-group {
+    flex-direction: column;
+  }
+
+  .pending-item-radio-option {
+    margin-right: 0px;
+  }
+
+  .pending-item-button-wrapper {
+    flex-direction: column;
+  }
+
+  .pending-item-button {
+    margin: 10px 0px;
+  }
+}

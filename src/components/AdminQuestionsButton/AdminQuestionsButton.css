@@ -1,0 +1,8 @@
+.admin-questions-button {
+  background-color: var(--btn-third-d);
+  color: var(--text-primary);
+}
+
+.admin-questions-button:hover {
+  background-color: var(--btn-third);
+}

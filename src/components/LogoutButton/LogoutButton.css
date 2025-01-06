@@ -1,0 +1,12 @@
+.logout-btn {
+  background-color: var(--btn-secondary-d);
+  color: var(--text-primary);
+}
+
+.logout-btn:hover {
+  background-color: var(--btn-secondary);
+}
+
+.logout-btn-text {
+  margin-left: 5px;
+}

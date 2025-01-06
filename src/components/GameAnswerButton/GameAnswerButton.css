@@ -1,0 +1,93 @@
+.game-answer-button {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--bg-alt-d);
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.game-answer-button-disabled {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--text-disabled);
+  cursor: not-allowed;
+  color: var(--text-primary);
+}
+
+.game-answer-button:hover {
+  background-color: var(--bg-alt);
+}
+
+.game-answer-button-selected {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--bg-primary-d);
+  cursor: not-allowed;
+  color: var(--text-primary);
+}
+
+.game-answer-button-unselected {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--text-disabled-d);
+  cursor: not-allowed;
+  color: var(--text-primary);
+}
+
+.game-answer-button-correct {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--btn-third-d);
+  cursor: not-allowed;
+  color: var(--text-primary);
+}
+
+.game-answer-button-wrong {
+  width: 100%;
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--btn-secondary-d);
+  cursor: not-allowed;
+  color: var(--text-primary);
+}

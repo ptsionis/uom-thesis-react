@@ -1,0 +1,8 @@
+.admin-pending-button {
+  background-color: var(--btn-third-d);
+  color: var(--text-primary);
+}
+
+.admin-pending-button:hover {
+  background-color: var(--btn-third);
+}

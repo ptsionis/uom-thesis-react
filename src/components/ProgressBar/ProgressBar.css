@@ -1,0 +1,17 @@
+.progress-bar-outer {
+  height: 25px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: var(--bg-primary-d);
+}
+
+.progress-bar-inner {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 1s ease;
+  background-color: var(--btn-primary);
+}

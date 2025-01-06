@@ -1,0 +1,41 @@
+.challenge-modal-wrapper {
+  z-index: 800;
+}
+
+.challenge-modal {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: fit-content;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 60px 25px;
+  border-radius: 10px;
+  background-color: var(--bg-primary);
+}
+
+.challenge-modal-vs-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px;
+}
+
+.challenge-modal-vs {
+  margin: 0px 20px;
+}
+
+.challenge-modal-profile-pic {
+  width: 60px;
+  border-radius: 100%;
+}
+
+.challenge-modal-respond-wrapper {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

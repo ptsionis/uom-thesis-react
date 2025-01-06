@@ -1,0 +1,14 @@
+.all-categories-winrates-wrapper {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+  row-gap: 30px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .all-categories-winrates-wrapper {
+    grid-template-columns: auto auto;
+  }
+}

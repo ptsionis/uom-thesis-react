@@ -1,0 +1,9 @@
+.challenge-button-cancel {
+  cursor: pointer;
+  color: var(--text-primary);
+  background-color: var(--btn-secondary-d);
+}
+
+.challenge-button-cancel:hover {
+  background-color: var(--btn-secondary);
+}

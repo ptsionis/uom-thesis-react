@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: var(--text-disabled);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.footer-link {
+  color: var(--text-disabled);
+}
+
+.footer-link:hover {
+  color: var(--text-disabled-d);
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    display: none;
+  }
+}

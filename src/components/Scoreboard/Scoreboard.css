@@ -1,0 +1,17 @@
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard-score {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.scoreboard-divider {
+  height: 100%;
+  width: 1px;
+  margin: 0px 15px;
+  background-color: var(--text-disabled);
+}

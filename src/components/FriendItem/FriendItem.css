@@ -1,0 +1,50 @@
+.frienditem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-alt);
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.frienditem-name-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.friend-img {
+  width: 32px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.frienditem-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.frienditem-name-span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.challenge-response-wrapper {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.challenged-me {
+  background-color: var(--bg-alt-d);
+}
