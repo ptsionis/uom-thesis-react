@@ -75,7 +75,7 @@ const GameView = () => {
             questionsPlayed={questionsPlayed}
           />
         ) : (
-          <GameQuestionWrapper turn={turn} question={question} />
+          <GameQuestionWrapper turn={turn} question={question.dataValues} />
         )}
       </div>
     </main>
